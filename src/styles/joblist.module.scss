@@ -1,0 +1,72 @@
+.joblist__container{
+    background-image: linear-gradient(#edf1f7, white);
+    padding: 20px 0;
+    .section1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div{
+            display: flex;
+            flex-direction: column;
+            margin-right: 5%;
+            width: 30%;
+            input{
+                margin-top: 5px;
+                padding: 7px;
+            }
+            label{
+                font-weight: bold;
+            }
+        }
+        input{
+            margin: 2px 0;
+        }
+        .radiolabel{
+            font-weight: bold;
+            margin-left: 3px;
+        }
+        button{
+            margin-left: 5%;
+            padding: 15px;
+            background-color: #9fbad4;
+            color: white;
+            font-weight: bold;
+            border: 1px solid transparent;
+            border-radius: 5px;;
+            &:active {
+                transform: translateY(4px);
+            }
+        }
+    }
+    .section2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        width: 80%;
+        margin: 25px auto;
+        padding: 15px;
+        .buttons{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+        button{
+            color: white;
+            font-weight: bold;
+            background-color:  #5294d1;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            margin-top: 25px;
+            padding: 5px 0;
+            width: 40%;
+            font-size: 18px;
+            cursor: pointer;
+            &:active {
+                transform: translateY(4px);
+            }
+        }
+    }
+    }
+}

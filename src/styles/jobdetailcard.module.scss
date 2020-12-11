@@ -1,0 +1,32 @@
+.card__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid #f2f2f2;
+    width: 87%;
+    div{
+        &:first-child{
+            p{
+                color: #bfbfbf;
+                &:first-child{
+                    a{
+                    font-weight: bold;
+                    color:  #5294d1;
+                    text-decoration: none;
+                    }
+                }
+                span{
+                    font-weight: bold;
+                    color: #18a339
+                }
+            }
+        }
+        &:last-child{
+            p{
+                &:last-child{
+                    color: #bfbfbf;
+                }
+            }
+        }
+    }
+}
